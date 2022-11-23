@@ -11,8 +11,8 @@ export function Text({ size = 'md', children }: TextProps){
       'text-gray-100 font-sans', 
       {
         'text-xs': size == 'sm',
-        'text-sm': size == 'md',
-        'text-md': size == 'lg',
+        'text-s': size == 'md',
+        'text-m': size == 'lg',
       }
     )}
     >
