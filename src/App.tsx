@@ -1,4 +1,5 @@
 import { Envelope, Lock } from 'phosphor-react'
+import { Button } from './components/Button'
 import { Checkbox } from './components/Checkbox'
 import { Heading } from './components/Heading'
 import { Text } from './components/Text'
@@ -50,6 +51,8 @@ export function App() {
               Lembrar de mim por 30 dias
             </Text>
           </label>
+
+          <Button type="submit">Entrar na plataforma</Button>
         </form>
       </div>
     </>
