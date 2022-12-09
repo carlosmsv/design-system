@@ -1,4 +1,5 @@
 import { Envelope, Lock } from 'phosphor-react'
+import { Checkbox } from './components/Checkbox'
 import { Heading } from './components/Heading'
 import { Text } from './components/Text'
 import { TextInput } from './components/TextInput'
@@ -41,6 +42,13 @@ export function App() {
               </TextInput.Icon>
               <TextInput.Input type="password"id="password" placeholder="********"/>
             </TextInput.Root>
+          </label>
+
+          <label htmlFor="remember" className="flex items-center gap-2">
+            <Checkbox />
+            <Text size="sm" className="text-gray-200">
+              Lembrar de mim por 30 dias
+            </Text>
           </label>
         </form>
       </div>
