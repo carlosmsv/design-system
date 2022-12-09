@@ -52,7 +52,7 @@ export function App() {
             </Text>
           </label>
 
-          <Button type="submit">Entrar na plataforma</Button>
+          <Button type="submit" className="mt-4">Entrar na plataforma</Button>
         </form>
       </div>
     </>
